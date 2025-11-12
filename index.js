@@ -1,22 +1,21 @@
-// Import Express
+// index.js
 import express from "express";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware: serve file static (opsional)
+// serve static file (optional)
 app.use(express.static("public"));
 
-// Route utama
+// route utama
 app.get("/", (req, res) => {
   res.send(`
-    <h1>🚀 Halo dari Node.js di GalaxyCloud!</h1>
-    <p>Website ini berjalan menggunakan Express.js.</p>
-    <p><a href="https://github.com/USERNAME/REPO" target="_blank">Lihat repo GitHub</a></p>
+    <h1>🚀 Halo dari The Web3 Traders</h1>
+    <p>Website Node.js ini berhasil dijalankan di GalaxyCloud.app</p>
   `);
 });
 
-// Jalankan server
+// jalankan server
 app.listen(PORT, () => {
-  console.log(`✅ Server berjalan di port ${PORT}`);
+  console.log(`✅ Server aktif di port ${PORT}`);
 });
