@@ -1,15 +1,13 @@
 {
-    "name": "aurum-ai-backend",
-    "version": "1.0.0",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "dependencies": {
-        "express": "^4.18.2",
-        "node-fetch": "^2.6.7",
-        "@solana/web3.js": "^1.95.3",
-        "cors": "^2.8.5",
-        "dotenv": "^16.0.3"
-    }
+  "name": "galaxycloud-node-app",
+  "version": "1.0.0",
+  "description": "Contoh Node.js app untuk GalaxyCloud",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
-
